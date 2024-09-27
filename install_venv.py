@@ -43,9 +43,6 @@ def create_virtual_environment():
     print ("Venv created")
 
 
-
-
-
 def main():
     if not check_venv():
         if install_venv():
